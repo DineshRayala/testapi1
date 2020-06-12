@@ -22,7 +22,7 @@ def invalid_token_callback(error):
         'error': 'invalid_token',
         'message': 'Signature verification failed.'
     }), 401
-/* comment */
+
 
 api.add_resource(Emp,'/emp')
 api.add_resource(EmpLogin,'/login')
